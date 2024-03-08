@@ -49,10 +49,12 @@ public class Calculator {
    * @throws IllegalArgumentException if number2 is zero.
    */
   public double divide(double number1, double number2) {
+    double result ;
     if (number2 == 0) {
       throw new IllegalArgumentException("Cannot divide by zero");
     }
-    return number1 / number2;
+    result = number1/number2 ;
+    return result;
   }
   public double squareRoot(double number) {
     return sqrt(number) ;
