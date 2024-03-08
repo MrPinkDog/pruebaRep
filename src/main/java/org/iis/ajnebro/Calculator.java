@@ -1,5 +1,6 @@
 package org.iis.ajnebro;
 
+import static java.lang.Math.sqrt;
 /**
  * Represents a simple calculator that can perform basic arithmetic operations such as addition,
  * subtraction, multiplication, and division.
@@ -52,5 +53,8 @@ public class Calculator {
       throw new IllegalArgumentException("Cannot divide by zero");
     }
     return number1 / number2;
+  }
+  public double squareRoot(double number) {
+    return sqrt(number) ;
   }
 }
