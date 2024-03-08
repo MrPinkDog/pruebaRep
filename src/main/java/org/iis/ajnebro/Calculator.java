@@ -61,7 +61,7 @@ public class Calculator {
     result = number1/number2 ;
     return result;
   }
-  public double squareRoot(double number) {
+  public double squareRoot(double numberm) {
     return sqrt(number) ;
   }
 }
